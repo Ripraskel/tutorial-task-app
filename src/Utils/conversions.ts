@@ -2,7 +2,7 @@
  * 
  * @param date 
  * 
- * @returns date string compatible with HTML date input.
+ * @returns "yyyy-MM-dd"
  */
 export const getHTMLDate = (date: Date | null): string => {
     const getMonthByIndex = (index: number): string => {
